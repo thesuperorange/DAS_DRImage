@@ -6,9 +6,9 @@
 * 目標：透過有標記之眼底影像來偵測是否有糖尿病引發的視網膜病變
 * 類別：分為五種嚴重程度
     - 0 - No DR
-    - 1 - Mild
+    - 1 - Mild
     - 2 - Moderate
-    - 3 - Severe
+    - 3 - Severe
     - 4 - Proliferative DR
 * framework: Pytorch
 
@@ -28,7 +28,7 @@
 
 ## 資料展示
 
-- [download notebook](https://lab.das.twcc.ai/analytics/notebooks/v2/67d82afc-c9f7-4a3d-9d9f-5360c24bea08/view?access_token=6b600e659809a5fedda44dcdb0e34c2a91080d89858b60bb30dc11c697e9d1a1)
+- [notebook](https://github.com/thesuperorange/DAS_DRImage/blob/main/fundus_data.ipynb)
 
 * 內容--資料觀察
     1. label distribution
@@ -42,7 +42,8 @@
 
 
 ## 訓練模型
-- [download notebook](https://lab.das.twcc.ai/analytics/notebooks/v2/e970a7c9-f44b-4cff-aff6-09e43998f1fd/view?access_token=f53e3b189ba471a6a1c9cfee13dc50fe7f01ca9c4afc2e9aa20578bba178b6dd)
+- [notebook](https://github.com/thesuperorange/DAS_DRImage/blob/main/DR_main.ipynb)
+
 
 * 內容
     1. Dataloader
@@ -59,7 +60,8 @@
 
 
 ## 模型佈署
-- [download notebook](https://lab.das.twcc.ai/analytics/notebooks/v2/4e0ce7dd-a305-4479-ad36-7c1d19a5634d/view?access_token=80e6c779359c4301ae0d5081c2e01bba626f9e46b7a0ff35001e4cef7d04ce75)
+- [notebook](https://github.com/thesuperorange/DAS_DRImage/blob/main/deploy_onnx_model.ipynb)
+
 
 
 * 佈署流程
